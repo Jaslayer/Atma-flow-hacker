@@ -32,41 +32,42 @@
 2. 進副本，建議魔奇白霧濕地。
 3. 右鍵點擊 Atma_flow_setting.exe， 以系統管理員身分執行，是。
 4. 出現一個提示視窗，注意，當你按確定後不要再點擊滑鼠。按確定。    
-   ![[manual/setting_hint.png]]
+   ![pic](manual/setting_hint.png)
 5. 長按 Alt，用 Tab 選擇艾爾之光。
 6. 讓寵補進CD，等CD十位數是'1'時，滑鼠左鍵點擊指定的五個位置（來不及點沒關係，重新讓寵補進CD接著點）
 	1. 寵補HP格十位數正下方 (再按ESC關閉寵補視窗)  
-	   ![[manual/pet_mid1.png]] 游標尖端碰到黃字佳
+	   ![pic](manual/pet_mid1.png) 游標尖端碰到黃字佳
 	2. 寵補MP格十位數正下方 (再按ESC關閉寵補視窗)  
-	   ![[manual/pet_mid2.png]] 游標尖端碰到黃字佳
+	   ![pic](manual/pet_mid2.png) 游標尖端碰到黃字佳
 	3. 寵補MP格個位數正上方 (再按ESC關閉寵補視窗)  
-	   ![[manual/pet_mid2_2.png]]
+	   ![pic](manual/pet_mid2_2.png)
 	4. Buff 欄左上角  
-	   ![[manual/buff_1.png]]
+	   ![pic](manual/buff_1.png)
 	5. Buff 欄右下角，由於 buff 會往下長，視情況抓下面一點的位置點擊（註：Buff 欄左上、右下的範圍就是偵測範圍，每個角色的 buff 欄都要落在這範圍）  
-	   ![[manual/buff_2.png]]
+	   ![pic](manual/buff_2.png)
 	   
-	6. 出現視窗，打開 Atma_flow_config 資料夾裡的 config.txt，一對一填入數字，完成後存檔，按確定關閉視窗。   ![[manual/config_setting.png]]
-7. 疊兩層水套 Buff，對整個 buff 截圖，存檔覆蓋 Atma_flow_config 資料夾裡的 flow_buff1.png。   
-	 ![[manual/config_flow_buff0.png]]
-8. 使用圖片裁切工具編輯 flow_buff1.png (小畫家之類的，不要用截圖工具)，保留 buff 的右半邊，存檔。  
-	 ![[manual/config_flow_buff1.png]]
-9. flow_buff1.png 檔案複製一份，存成 flow_buff2.png
-10. 使用圖片裁切工具編輯圖片，裁掉下半部，保留約 1/3 的上半部分，存檔。  
-    ![[manual/config_flow_buff2.png]]
-11. 右鍵 Atma_flow.exe → 內容 → 相容性 → 以系統管理員身分執行此程式 打勾 → 確定  
-    ![[manual/administrator.png]]
-12. 在 config.txt 內有 hotkey1~6 (設定快捷欄位按鍵) 與 force_hotkey (設定強制倒數鍵)，按照你的實際情況與喜好填入按鍵，存檔。  
-    ![[manual/config_hotkey.png]]
+	6. 出現視窗，打開 Atma_flow_config 資料夾裡的 config.txt，一對一填入數字，完成後存檔，按確定關閉視窗。   
+	   ![pic](manual/config_setting.png)
+1. 疊兩層水套 Buff，對整個 buff 截圖，存檔覆蓋 Atma_flow_config 資料夾裡的 flow_buff1.png。   
+	 ![pic](manual/config_flow_buff0.png)
+2. 使用圖片裁切工具編輯 flow_buff1.png (小畫家之類的，不要用截圖工具)，保留 buff 的右半邊，存檔。  
+	 ![pic](manual/config_flow_buff1.png)
+3. flow_buff1.png 檔案複製一份，存成 flow_buff2.png
+4. 使用圖片裁切工具編輯圖片，裁掉下半部，保留約 1/3 的上半部分，存檔。  
+    ![pic](manual/config_flow_buff2.png)
+5. 右鍵 Atma_flow.exe → 內容 → 相容性 → 以系統管理員身分執行此程式 打勾 → 確定  
+    ![pic](manual/administrator.png)
+6. 在 config.txt 內有 hotkey1~6 (設定快捷欄位按鍵) 與 force_hotkey (設定強制倒數鍵)，按照你的實際情況與喜好填入按鍵，存檔。  
+    ![pic](manual/config_hotkey.png)
     按鍵填寫方式：  
-    ![[manual/hotkey_name.png]]
-13. (可略) config.txt 其他設定：
+    ![pic](manual/hotkey_name.png)
+7. (可略) config.txt 其他設定：
     pixel_diff：圖片偵測誤差，建議 80~120。
     interval_ms：電腦要燒了的話在調大。
     beep_len：流水 Buff 消失時撥放的提示音效長度，單位：毫秒。
     window_pos_x：應用程式起始位置 x 座標，值越大會越往右。
     window_pos_y：應用程式起始位置 y 座標，值越大會越往下。
-14. (可略) 右鍵 Atma_flow.exe → 建立捷徑，把捷徑放在桌面等方便使用的地方。
+8. (可略) 右鍵 Atma_flow.exe → 建立捷徑，把捷徑放在桌面等方便使用的地方。
     
 ---
 ## 使用方式
